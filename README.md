@@ -3,7 +3,7 @@
 A simple **House Rental Application Frontend** built using **React + Vite**.  
 No backend, No HTML files. Only Frontend with fake data.
 
-## 🚀 Features
+## 🚀 Features 
 
 - **User Authentication**: Register & Login pages
 - **Home Page**: Shows near location rental houses - Pithapuram, Kakinada
