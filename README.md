@@ -23,7 +23,7 @@ No backend, No HTML files. Only Frontend with fake data.
 ## 📁 Project Structure
 HOUSE RENT APP/
 ├── src/
-│   ├── pages/
+│   ├── pages/ 
 │   │   ├── Register.jsx
 │   │   ├── Login.jsx
 │   │   ├── Home.jsx
