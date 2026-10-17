@@ -10,7 +10,7 @@ export default function Login({ setPage, setUser }) {
       setUser(user); 
       setPage('home');
     } else alert('Wrong Email or Password'); 
-  }
+  } 
 
   return (
     <div style={{maxWidth:'400px', margin:'50px auto', padding:'20px', border:'1px solid gray'}}>
