@@ -1,4 +1,4 @@
- import { useState } from 'react';
+import { useState } from 'react';
 import { users } from '../data/dummyData';
 
 export default function Register({ setPage }) {
