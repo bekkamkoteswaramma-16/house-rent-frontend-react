@@ -11,7 +11,7 @@ export default function Register({ setPage }) {
   }
   
   return (
-    <div style={{maxWidth:'400px', margin:'50px auto', padding:'20px', border:'1px solid gray'}}> 
+    <div style={{maxWidth:'400px', margin:'50px auto', padding:'20px', border:'1px solid gray'}}>  
       <h1>Register </h1>
       <input placeholder="Name" style={{width:'100%',  padding:'8px'}} onChange={e => setForm({...form,  name:e.target.value})} /><br/><br/>
       <input placeholder="Email" style={{width:'100%', padding:'8px'}} onChange={e => setForm({...form, email:e.target.value})} /><br/><br/>
