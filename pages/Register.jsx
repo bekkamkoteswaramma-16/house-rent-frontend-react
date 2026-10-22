@@ -9,7 +9,7 @@ export default function Register({ setPage }) {
     alert('Registered Successfully!');
     setPage('login');
   }
-
+  
   return (
     <div style={{maxWidth:'400px', margin:'50px auto', padding:'20px', border:'1px solid gray'}}>
       <h1>Register </h1>
