@@ -9,7 +9,7 @@ export default function Login({ setPage, setUser }) {
     if(user){
       setUser(user);   
       setPage('home');
-    } else alert('Wrong Email or Password');  
+    } else alert('Wrong Email or Password');   
   } 
 
   return (
