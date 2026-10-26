@@ -11,7 +11,7 @@ export default function TenantHome({ setPage }) {
         <div key={h.id} style={{border:'1px solid gray', padding:'10px', margin:'10px 0'}}>
           <h3>{h.title} - ₹{h.price}</h3> 
           <p>{h.location}</p>  
-        </div>
+        </div> 
       ))}
     </div>
   ); 
