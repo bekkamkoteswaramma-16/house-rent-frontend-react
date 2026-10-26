@@ -1,4 +1,4 @@
-import { houses } from '../data/dummyData'; 
+import { houses } from '../data/dummyData';  
 
 export default function TenantHome({ setPage }) {
   return ( 
