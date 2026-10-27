@@ -1,6 +1,6 @@
 export default function Settings({ setPage }) {
   return ( 
-    <div style={{padding:'20px'}}>
+    <div style={{padding:'20px'}}> 
       <h1>Settings ⚙️</h1>
       <button>Change Password</button><br/><br/> 
       <button>Notifications</button><br/><br/> 
