@@ -1,4 +1,4 @@
-export default function Settings({ setPage }) {
+export default function Settings({ setPage }) { 
   return ( 
     <div style={{padding:'20px'}}> 
       <h1>Settings ⚙️</h1>
