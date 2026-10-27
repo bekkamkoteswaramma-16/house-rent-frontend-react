@@ -8,4 +8,4 @@ export default function Settings({ setPage }) {
       <button onClick={() => setPage('home')}>Back</button>
     </div>
   );
-}
+} 
