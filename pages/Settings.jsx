@@ -6,6 +6,6 @@ export default function Settings({ setPage }) {
       <button>Notifications</button><br/><br/> 
       <button onClick={() => setPage('login')}>Logout< /button><br/><br/>  
       <button onClick={() => setPage('home')}>Back</button>  
-    </div>
+    </div> 
   );
 } 
