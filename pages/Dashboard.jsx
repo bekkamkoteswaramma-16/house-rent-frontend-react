@@ -1,4 +1,4 @@
-export default function Dashboard({ setPage, user }) {
+export default function Dashboard({ setPage, user }) { 
   return ( 
     <div style={{padding:'80px'}}>
       <h1>My Profile 👤</h1>
