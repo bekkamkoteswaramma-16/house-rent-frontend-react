@@ -3,7 +3,7 @@ export default function Dashboard({ setPage, user }) {
     <div style={{padding:'80px'}}>
       <h1>My Profile 👤</h1> 
       <p><b>Name:</b> {user?.name}</p>
-      <p><b>Email:</b> {user?.email}</p>
+      <p><b>Email:</b> {user?.email}</p> 
       <p><b>Role:</b> {user?.role}</p>
       <button onClick={() => setPage('home')}>Bac k to Home</button>
     </div>
