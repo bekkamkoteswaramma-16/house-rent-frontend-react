@@ -8,4 +8,4 @@ export default function Dashboard({ setPage, user }) {
       <button onClick={() => setPage('home')}>Bac k to Home</button>
     </div>
   );
-}
+} 
