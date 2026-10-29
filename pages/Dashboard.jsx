@@ -5,7 +5,7 @@ export default function Dashboard({ setPage, user }) {
       <p><b>Name:</b> {user?.name}</p>
       <p><b>Email:</b> {user?.email}</p> 
       <p><b>Role:</b> {user?.role}</p>
-      <button onClick={() => setPage('home')}>Bac k to Home< /button>
+      <button onClick={() => setPage('home')}>Bac k  to Home< /button>
     </div> 
   );
 } 
