@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { users } from '../data/dummyData'; 
 
-export default function Register({ setPage }) { 
+export default function Register({ setPage }) {  
   const [form, setForm] = useState({name: '', email: '', password: '', role: 'owner'});
 
   const handleRegister = () => { 
