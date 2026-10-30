@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { users } from '../data/dummyData'; 
 
 export default function Register({ setPage }) {  
-  const [form, setForm] = useState({name: '', email: '', password: '', role: 'owner'}); 
+  const [form, setForm] = useState({name: '', email: '', password: '', role: 'owner'});
 
   const handleRegister = () => { 
     users.push({...form, id: Date.now().toString()}) ;
