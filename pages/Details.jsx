@@ -17,7 +17,7 @@ export default function Details({ setPage, house }) {
         <h3>Owner Contact</h3>
         <p>Phone: +91 9876543210</p>
         <p>Email: owner@example.com</p> 
-      </div>
+      </div> 
 
       <button style={{marginTop:'20px', padding:'12px 30px', background:'black', color:'white'}}>
         Contact Owner
