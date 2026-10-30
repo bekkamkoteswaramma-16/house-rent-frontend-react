@@ -7,7 +7,7 @@ export default function Register({ setPage }) {
   const handleRegister = () => {  
     users.push({...form, id: Date.now().toString()}) ;   
     alert('Registered Successfully!');
-    setPage('login'); 
+    setPage('login');  
   }
    
   return ( 
