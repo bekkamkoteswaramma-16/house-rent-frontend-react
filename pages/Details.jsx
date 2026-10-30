@@ -3,7 +3,7 @@ export default function Details({ setPage, house }) {
 
   return (
     <div style={{maxWidth:'800px', margin:'20px auto', padding:'20px'}}>
-      <button onClick={() => setPage('home')}>← Back to Home</button>
+      <button onClick={() => setPage('home')}>← Back to  Home</button>
       
       <img src={house.image} width="100%" style={{borderRadius:'10px', marginTop:'10px'}} />
       
