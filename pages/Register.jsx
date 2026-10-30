@@ -4,7 +4,7 @@ import { users } from '../data/dummyData';
 export default function Register({ setPage }) { 
   const [form, setForm] = useState({name: '', email: '', password: '', role: 'owner'});
 
-  const handleRegister = () => { 
+  const handleRegister = () => {  
     users.push({...form, id: Date.now().toString()}) ;  
     alert('Registered Successfully!');
     setPage('login'); 
