@@ -5,7 +5,7 @@ export default function Details({ setPage, house }) {
     <div style={{maxWidth:'800px', margin:'20px auto', padding:'20px'}}>
       <button onClick={() => setPage('home')}>← Back to  Home</button>
       
-      <img src={house.image} width="100%"  style={{borderRadius:'10px', marginTop:'10px'}} />
+      <img src={house.image} width="100%"   style={{borderRadius:'10px', marginTop:'10px'}} />
       
       <h1>{house.title}</h1> 
       <h2 style={{color:'green'}}>₹{house.price} / month</h2>
