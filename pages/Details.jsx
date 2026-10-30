@@ -7,7 +7,7 @@ export default function Details({ setPage, house }) {
       
       <img src={house.image} width="100%"   style={{borderRadius:'10px', marginTop:'10px'}} /> 
       
-      <h1>{house.title}</h1> 
+      <h1>{house.title}</h1>  
       <h2 style={{color:'green'}}>₹{house.price} / month</h2>
       
       <p><b>📍 Location:</b> {house.location}</p> 
