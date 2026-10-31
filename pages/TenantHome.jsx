@@ -10,7 +10,7 @@ export default function TenantHome({ setPage }) {
       <p>All available houses for rent</p> 
       
       {houses.map(h => ( 
-        <div key={h.id} style={{border:'1px solid gray',   padding:'10px', margin:'10px 0'}}>  
+        <div key={h.id} style={{border:'1px solid gray',  padding:'10px', margin:'10px 0'}}>  
           <h3>{h.title} - ₹{h.price}</h3>
           <p>{h.location}</p>  
         </div>   
