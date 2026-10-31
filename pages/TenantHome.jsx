@@ -4,7 +4,7 @@
 export default function TenantHome({ setPage }) {
   return ( 
     <div style={{padding:'20px'}}> 
-      <button onClick={() => setPage('home')}>← Back</button>
+      <button onClick={() => setPage('home')}>← Back</button> 
       <h1>Tenant Dashboard 🏡</h1> 
 
       <p>All available houses for rent</p> 
