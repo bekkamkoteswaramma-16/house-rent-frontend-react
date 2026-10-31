@@ -14,7 +14,7 @@ export default function TenantHome({ setPage }) {
           <h3>{h.title} - ₹{h.price}</h3>
           <p>{h.location}</p>  
         </div>   
-      ))} 
+      ))}
     </div>
   ); 
 }
