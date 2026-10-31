@@ -1,6 +1,5 @@
     import { houses } from '../data/dummyData';  
-
-
+
 export default function TenantHome({ setPage }) {
   return ( 
     <div style={{padding:'20px'}}> 
