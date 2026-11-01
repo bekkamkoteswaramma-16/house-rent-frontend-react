@@ -12,7 +12,7 @@ export default function Details({ setPage, house }) {
       
       <p><b>📍 Location:</b> {house.location}</p> 
       <p><b>📄 Description:</b> {house.desc}</p>  
-      
+       
       <div style={{border:'1px solid gray', padding:'15px',  marginTop:'20px'}}>
         <h3>Owner Contact</h3>
         <p>Phone: +91 9876543210</p>
