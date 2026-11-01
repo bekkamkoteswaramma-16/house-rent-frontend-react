@@ -11,7 +11,7 @@ export default function Details({ setPage, house }) {
       <h2 style={{color:'green'}}>₹{house.price} / month</h2>
       
       <p><b>📍 Location:</b> {house.location}</p> 
-      <p><b>📄 Description:</b> {house.desc}</p>  
+      <p><b>📄 Description:</b> {house.desc}</p> 
        
       <div style={{border:'1px solid gray', padding:'15px',  marginTop:'20px'}}>
         <h3>Owner Contact</h3>
