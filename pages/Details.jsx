@@ -1,5 +1,5 @@
 export default function Details({ setPage, house }) {
-  if(!house) return <p>Loading...</p> 
+  if(!house) return <p>Loading...</p>  
   
   return (
     <div style={{maxWidth:'800px', margi n:'20px auto',  padding:'20px'}}> 
