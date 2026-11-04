@@ -17,7 +17,7 @@ export default function Register({ setPage }) {
       <input placeholder="Email" style={{width:'100%' , padding:'8px'}} onChange={e => setForm({...form,  email:e.target.value})} /><br/><br/> 
       <input placeholder="Password" type="password"  style={{width:'100%', padding:'8px'}} onChange={e =>  setForm({...form, password:e.target.value})} /><br/><br/> 
       <select onChange={e => setForm({...form,  role:e.target.value})} style={{width:'100%', padding :'8 px'}}>
-        <option value="owner">House Owner</option>
+        <option value="owner">House Owner</option> 
         <option value="tenant">Tenant</option>
       </select><br/><br/>
       <button onClick={handleRegister} style={{width:'100%', padding:'10px'}}>Register</button>
