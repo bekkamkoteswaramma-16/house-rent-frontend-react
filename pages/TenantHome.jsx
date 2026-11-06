@@ -15,5 +15,5 @@ export default function TenantHome({ setPage }) {
         </div>     
       ))} 
     </div>  
-  );  
+  );   
 }
