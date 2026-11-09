@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { users } from '../data/dummyData';
 
 export default function Login({ setPage, setUser }) {
-  const [form, setForm] = useState({email: '', password: ''}); 
+  const [form, setForm] = useState({email: '', password: ''});
 
   const handleLogin = () => {
     const user = users.find(u => u.email === form.email && u.password === form.password);
