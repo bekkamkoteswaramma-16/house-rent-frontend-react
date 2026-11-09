@@ -19,6 +19,6 @@ export default function Login({ setPage, setUser }) {
       <input placeholder="Password" type="password"     style={{width:'100%', padding:'8px'}} onChange={e => setForm({...form, password:e.target.value})} /><br/><br/> 
       <button onClick={handleLogin} style={{width:'100%',   padding:'10px'}}>Login</button>    
       <p>Don't have account? <span style={{color:'blue',  cursor:'pointer'}} onClick={() => setPage('register')}>Register</span></p>
-    </div>
+    </div> 
   );
 }
