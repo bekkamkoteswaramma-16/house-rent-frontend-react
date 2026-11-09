@@ -8,7 +8,7 @@ export default function Login({ setPage, setUser }) {
     const user = users.find(u => u.email === form.email && u.password === form.password);
     if(user){
       setUser(user);    
-      setPage('home');
+      setPage('home'); 
     } else alert('Wrong Email or Password'); 
   } 
 
