@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { users } from '../data/dummyData';
+import { users } from '../data/dummyData'; 
 
 export default function Login({ setPage, setUser }) {
   const [form, setForm] = useState({email: '', password: ''});
