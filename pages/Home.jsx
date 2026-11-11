@@ -4,7 +4,7 @@ export default function Home({ setPage, setSelectedHouse, user }) {
   // "Near location" kosam Pithapuram houses filter chesa 
   const nearHouses = houses.filter(h => h.location.includes('Pithapuram') || h.location.includes('Kakinada'));
 
-  return (
+  return ( 
     <div>
       {/* NAVBAR */}
       <div style={{display:'flex', justifyContent:'space-between', padding:'10px 20px', background:'black', color:'white'}}>
