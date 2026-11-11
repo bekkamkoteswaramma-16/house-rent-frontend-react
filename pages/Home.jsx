@@ -5,7 +5,7 @@ export default function Home({ setPage, setSelectedHouse, user }) {
   const nearHouses = houses.filter(h => h.location.includes('Pithapuram') || h.location.includes('Kakinada'));
 
   return ( 
-    <div>
+    <div> 
       {/* NAVBAR */}
       <div style={{display:'flex', justifyContent:'space-between', padding:'10px 20px', background:'black', color:'white'}}>
         <h2>HouseRent</h2>  
