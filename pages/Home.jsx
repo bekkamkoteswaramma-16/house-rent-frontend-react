@@ -1,5 +1,5 @@
 import { houses } from '../data/dummyData';
- 
+  
 export default function Home({ setPage, setSelectedHouse, user }) { 
   // "Near location" kosam Pithapuram houses filter chesa 
   const nearHouses = houses.filter(h => h.location.includes('Pithapuram') || h.location.includes('Kakinada'));
