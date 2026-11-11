@@ -10,7 +10,7 @@ export default function Home({ setPage, setSelectedHouse, user }) {
       <div style={{display:'flex', justifyContent:'space-between', padding:'10px 20px', background:'black', color:'white'}}>
         <h2>HouseRent</h2>  
         <div> 
-          <button onClick={() => setPage('home')}>Home</button> 
+          <button onClick={() => setPage('home')}>Home</button>  
           <button onClick={() => setPage('add')}>+ Add House</button>  
           <button onClick={() => setPage('dashboard')}>Profile</button>  
           <button onClick={() => setPage('settings')}>Settings</button> 
