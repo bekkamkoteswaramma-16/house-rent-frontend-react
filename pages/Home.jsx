@@ -14,7 +14,7 @@ export default function Home({ setPage, setSelectedHouse, user }) {
           <button onClick={() => setPage('add')}>+ Add House</button> 
           <button onClick={() => setPage('dashboard')}>Profile</button> 
           <button onClick={() => setPage('settings')}>Settings</button>
-          <button onClick={() => setPage('tenant')}>Tenant View</button>
+          <button onClick={() => setPage('tenant')}>Tenant View</button> 
         </div>
       </div>
 
