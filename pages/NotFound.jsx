@@ -7,4 +7,4 @@ export default function NotFound() {
       <button onClick={() => navigate('/')}>Return to Home</button>
     </div>
   )
-}  
+}   
