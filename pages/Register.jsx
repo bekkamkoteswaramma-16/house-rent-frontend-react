@@ -22,6 +22,6 @@ export default function Register({ setPage }) {
       </select><br/><br/>
       <button onClick={handleRegister} style={{width:'100%', padding:'10px'}}>Register</button>
       <p>Already have account? <span style={{color:'blue', cursor:'pointer'}} onClick={() => setPage('login')}>Login</span></p> 
-    </div> 
+    </div>  
   ); 
 }
