@@ -14,6 +14,6 @@ export default function TenantHome({ setPage })  {
           <p>{h.location}</p>   
         </div>
       ))} 
-    </div>  
+    </div>   
   );  
 }
