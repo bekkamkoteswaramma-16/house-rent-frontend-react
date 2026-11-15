@@ -8,7 +8,7 @@ export default function Register({ setPage }) {
     users.push({...form, id: Date.now().toString()}) ;
     alert('Registered Successfully!');
     setPage('login');   
-  }
+  } 
      
   return (   
     <div style={{maxWidth:'400px', margin:'50px auto',  padding:'20px', border:'1px solid gray'}}>  
