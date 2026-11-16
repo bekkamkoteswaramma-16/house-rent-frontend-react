@@ -19,7 +19,7 @@ export default function Details({ setPage, house }) {
         <p>Email: owner@example.com</p> 
       </div>    
 
-      <button style={{marginTop:'20px', padding:'12px 30px',  background:'black', color:'white'}}> 
+      <button style={{marginTop:'20px', padding:'12px 30px', background:'black', color:'white'}}>
         Contact Owner
       </button>
     </div>
