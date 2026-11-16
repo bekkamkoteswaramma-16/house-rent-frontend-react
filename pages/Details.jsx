@@ -23,5 +23,5 @@ export default function Details({ setPage, house }) {
         Contact Owner    
       </button>   
     </div> 
-  );  
+  );
 } 
