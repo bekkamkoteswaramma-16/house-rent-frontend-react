@@ -22,6 +22,6 @@ export default function Details({ setPage, house }) {
       <button style={{marginTop:'20px', padding:'12px 30px',  background:'black', color:'white'}}> 
         Contact Owner  
       </button>   
-    </div>
+    </div> 
   );
 }
