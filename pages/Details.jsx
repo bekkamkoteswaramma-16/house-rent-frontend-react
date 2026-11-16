@@ -24,4 +24,4 @@ export default function Details({ setPage, house }) {
       </button>   
     </div> 
   );   
-} 
+}  
