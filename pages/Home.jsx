@@ -19,7 +19,7 @@ export default function Home({ setPage, setSelectedHouse, user }) {
       </div>  
 
       {/* HOME CONTENT */}
-      <div style={{padding:'20px'}}>
+      <div style={{padding:'20px'}}> 
         <div style={{display:'flex', gap:'20px', flexWrap:'wrap'}}>
           {nearHouses.map(h => (
             <div key={h.id} style={{border:'1px solid gray', width:'300px', padding:'10px'}}>
