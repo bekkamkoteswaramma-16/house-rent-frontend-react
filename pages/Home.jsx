@@ -7,7 +7,7 @@ export default function Home({ setPage, setSelectedHouse, user }) {
   return (  
     <div>  
       {/* NAVBAR */}
-      <div style={{display:'flex', justifyContent:'space-between', padding:'10px 20px', background:'black', color:'white'}}>
+      <div style={{display:'flex', justifyContent:'space-between', padding:'10 px 20px', background:'black', color:'white'}}>
         <h2>HouseRent</h2>  
         <div> 
           <button onClick={() => setPage('home')}>Home</button>  
