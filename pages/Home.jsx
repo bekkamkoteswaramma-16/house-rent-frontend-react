@@ -17,7 +17,7 @@ export default function Home({ setPage, setSelectedHouse, user }) {
           <button onClick={() => setPage('tenant')}>Tenant  View</button> 
         </div>
       </div>  
-
+ 
       {/* HOME CONTENT */}
       <div style={{padding:'20px'}}>  
         <div style={{display:'flex', gap:'20px', flexWrap:'wrap'}}>
